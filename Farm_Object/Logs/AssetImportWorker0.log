@@ -1,0 +1,580 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.20f1c1 (7cf0fbd73406) revision 8188155'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityEditor2023ZD\2021.3.20f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/GitHubWarehouse/Farm_Object
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59873
+Successfully changed project path to: F:/GitHubWarehouse/Farm_Object
+F:/GitHubWarehouse/Farm_Object
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13156] Host "[IP] 192.168.127.1 [Port] 0 [Flags] 2 [Guid] 3459019327 [EditorId] 3459019327 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-THKFBPK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13156] Host "[IP] 192.168.127.1 [Port] 0 [Flags] 2 [Guid] 3459019327 [EditorId] 3459019327 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-THKFBPK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 144.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1c1 (7cf0fbd73406)
+[Subsystems] Discovering subsystems at path E:/UnityEditor2023ZD/2021.3.20f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GitHubWarehouse/Farm_Object/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'E:/UnityEditor2023ZD/2021.3.20f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityEditor2023ZD/2021.3.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityEditor2023ZD/2021.3.20f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityEditor2023ZD/2021.3.20f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/UnityEditor2023ZD/2021.3.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005750 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 104.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Domain Reload Profiling:
+	ReloadAssembly (793ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015146 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\GitHubWarehouse\Farm_Object\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\GitHubWarehouse\Farm_Object\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Farming Engine: 建议为地板层分配一个名称。层级: 9 名称: Floor
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+FarmingEngine.EditorTool.ImportPackage:AfterCompile () (at Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs:33)
+FarmingEngine.EditorTool.ImportPackage:.cctor () (at Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs Line: 33)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+已将 FARMING_ENGINE 添加到脚本定义符号中
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FarmingEngine.EditorTool.ImportPackage:AddSymbol (string) (at Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs:79)
+FarmingEngine.EditorTool.ImportPackage:AfterCompile () (at Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs:40)
+FarmingEngine.EditorTool.ImportPackage:.cctor () (at Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs Line: 79)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1570ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1269ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.0 KB). Loaded Objects now: 3734.
+Memory consumption went from 121.4 MB to 121.3 MB.
+Total: 3.373400 ms (FindLiveObjects: 0.280800 ms CreateObjectMapping: 0.227000 ms MarkObjects: 2.738900 ms  DeleteObjects: 0.125400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4211.078046 seconds.
+  path: Assets/FarmingEngine
+  artifactKey: Guid(f9186eb69382e47449ca648537bcbd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine using Guid(f9186eb69382e47449ca648537bcbd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c00948914d0e34709391279d1dd93b') in 0.009321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FarmingEngine/Models/Character/FarmerGirl.fbx
+  artifactKey: Guid(5faa53f72454b35479388278093da4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Character/FarmerGirl.fbx using Guid(5faa53f72454b35479388278093da4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7919b39779dc5abdf95d3005e550f2') in 1.204652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FarmingEngine/Models/Character/CharacterGhost.fbx
+  artifactKey: Guid(ab9658be5ea04c2a820bb5bdb93fa6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Character/CharacterGhost.fbx using Guid(ab9658be5ea04c2a820bb5bdb93fa6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c440048dcafdf8d87320f31c035b6cb1') in 0.077337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.188270 seconds.
+  path: Assets/FarmingEngine/Models/Animals/bear@attack.fbx
+  artifactKey: Guid(a1bbb7288f904cecaade3d0c124f15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/bear@attack.fbx using Guid(a1bbb7288f904cecaade3d0c124f15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce595b302a6906dbee0eaf6e97cb5284') in 0.039199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FarmingEngine/Models/Animals/ChickenBaby.fbx
+  artifactKey: Guid(5c81c66decb548743886888cacfcbe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/ChickenBaby.fbx using Guid(5c81c66decb548743886888cacfcbe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd771481fcc6e5f83729841b37a1845') in 0.077647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FarmingEngine/Models/Animals/butterfly.fbx
+  artifactKey: Guid(3603f761ce324c428483b7f025178882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/butterfly.fbx using Guid(3603f761ce324c428483b7f025178882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9341fc0c42330829619f94d27d368726') in 0.057236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FarmingEngine/Models/Animals/bird_fly.fbx
+  artifactKey: Guid(f56b0f016c344fd887d9ebb3003a6d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/bird_fly.fbx using Guid(f56b0f016c344fd887d9ebb3003a6d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb86ff347daeaa30cf8fa37538f816e9') in 0.063268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FarmingEngine/Models/Animals/deer@run.fbx
+  artifactKey: Guid(9711174726b749fb98fc629a104e8896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/deer@run.fbx using Guid(9711174726b749fb98fc629a104e8896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa64a275330bcecd56504e3097da176') in 0.045115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FarmingEngine/Models/Animals/bird@idle.fbx
+  artifactKey: Guid(5fddf1a0a9284b1181be64bfade0e50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/bird@idle.fbx using Guid(5fddf1a0a9284b1181be64bfade0e50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538750f58e853757b542053e8a37066b') in 0.049276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FarmingEngine/Models/Animals/Chicken@death.fbx
+  artifactKey: Guid(b4d44826b4f6ba2469da6f61c614121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/Chicken@death.fbx using Guid(b4d44826b4f6ba2469da6f61c614121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7403bb4d3ec323e8182496f423a42b67') in 0.042227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FarmingEngine/Models/Animals/Cow@walk.fbx
+  artifactKey: Guid(5bcea9bad7e0f144db3d8c5ab2c0e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/Cow@walk.fbx using Guid(5bcea9bad7e0f144db3d8c5ab2c0e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ac7075dc9f091059a150c33ce90bc5') in 0.038457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FarmingEngine/Models/Animals/deer@idle.fbx
+  artifactKey: Guid(a2bc1a66cf854dd89229b5229e43dcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/deer@idle.fbx using Guid(a2bc1a66cf854dd89229b5229e43dcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5427298a7590f26d417b63b2ab16cc31') in 0.030808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FarmingEngine/Materials/BirdYellow.mat
+  artifactKey: Guid(4d4662283ecd9e34ca603cb641d65606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/BirdYellow.mat using Guid(4d4662283ecd9e34ca603cb641d65606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307a58ea7ef1574eead01abd5708b8b1') in 0.079757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FarmingEngine/Materials/Carrot.mat
+  artifactKey: Guid(5101929418fac9a4699de96ed88d45de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/Carrot.mat using Guid(5101929418fac9a4699de96ed88d45de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027898c217a57ffa53bf30948d2e6f1f') in 0.012892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FarmingEngine/Materials/Bacon2.mat
+  artifactKey: Guid(bbc5608fd4984234bb9590326330bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/Bacon2.mat using Guid(bbc5608fd4984234bb9590326330bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7003f3aa0cd37e0c6da1fa50ba01dc42') in 0.015627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FarmingEngine/Materials/BirdLeg.mat
+  artifactKey: Guid(ecd9fac48b227db47ac33c0f0f3063fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/BirdLeg.mat using Guid(ecd9fac48b227db47ac33c0f0f3063fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8345c0b650cc2ecf3d8ca17e46073a73') in 0.018755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FarmingEngine/Models/Animals/Chicken@eat.fbx
+  artifactKey: Guid(f280ce22e34f5eb40816c74d357348f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/Chicken@eat.fbx using Guid(f280ce22e34f5eb40816c74d357348f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e220e672866a2728d69d9d785703f3f2') in 0.049994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FarmingEngine/Materials/BirdWhite.mat
+  artifactKey: Guid(fb4c050186f254849b92fce2b6d5cc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/BirdWhite.mat using Guid(fb4c050186f254849b92fce2b6d5cc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c94b555a110578e14aa32c090c9f47') in 0.012631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FarmingEngine/Materials/Apple.mat
+  artifactKey: Guid(2e56ca5dc9d145759f4cafaa7db08018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/Apple.mat using Guid(2e56ca5dc9d145759f4cafaa7db08018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303e0e21eb0b197ed1e5092542da20e4') in 0.039543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FarmingEngine/Models/Animals/Chicken@death2.fbx
+  artifactKey: Guid(97a6ae59934f5404e88678d08bc2b366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/Chicken@death2.fbx using Guid(97a6ae59934f5404e88678d08bc2b366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbdba1d5573911b191be5b7e667fb5a') in 0.048039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FarmingEngine/Materials/Berry.mat
+  artifactKey: Guid(74a995b0b792424c8841e84c4fd0a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/Berry.mat using Guid(74a995b0b792424c8841e84c4fd0a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2926181f3ad77648f0276492605184c') in 0.016579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FarmingEngine/Materials/ChestDark.mat
+  artifactKey: Guid(627edfd5a3aed5242be64d96ab4cfbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/ChestDark.mat using Guid(627edfd5a3aed5242be64d96ab4cfbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40e016bfe4299a8997955743e603d13') in 0.018628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FarmingEngine/Materials/CandleWax.mat
+  artifactKey: Guid(cce7b76c97c46b741ba35940c3acc24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/CandleWax.mat using Guid(cce7b76c97c46b741ba35940c3acc24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c019e5e44f186359b932207b69dc3b44') in 0.013202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FarmingEngine/Materials/BugWing.mat
+  artifactKey: Guid(5eb20f3e13c510c439b5a012094cd585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/BugWing.mat using Guid(5eb20f3e13c510c439b5a012094cd585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a24724463cde59f0fd69da2282114a') in 0.026405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FarmingEngine/Models/Animals/bear@death.fbx
+  artifactKey: Guid(2e993f5938434228b8016bc3389c192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/bear@death.fbx using Guid(2e993f5938434228b8016bc3389c192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8531c90e6f3f96937639a2d0c7ad50fd') in 0.029882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FarmingEngine/Models/Animals/Chicken@idle2.fbx
+  artifactKey: Guid(b00d9836eeb58ba47a7541fbc00fa4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Animals/Chicken@idle2.fbx using Guid(b00d9836eeb58ba47a7541fbc00fa4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc695acbb6a6cf5b6222be2d01b22d85') in 0.043702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FarmingEngine/Materials/ButterflyBlue.mat
+  artifactKey: Guid(a1a720e6e68d4b5baa123342ae36363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/ButterflyBlue.mat using Guid(a1a720e6e68d4b5baa123342ae36363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8dd00c99079a00d64d64e33aad2a6f') in 0.011567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FarmingEngine/Materials/AnimalEar.mat
+  artifactKey: Guid(764c4ae30a967fe4284bfdc619854944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/AnimalEar.mat using Guid(764c4ae30a967fe4284bfdc619854944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68d222abd6dc3fa9dd0061baf1fe545') in 0.012547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FarmingEngine/Materials/BirdRed.mat
+  artifactKey: Guid(b50f39032f9127b4282983f916da72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Materials/BirdRed.mat using Guid(b50f39032f9127b4282983f916da72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4bd295192709c3bed0ad6b769d0cce') in 0.013170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.911427 seconds.
+  path: Assets/FarmingEngine/Fonts/Exo2-Medium.otf
+  artifactKey: Guid(2ad80294c0cc49f4e804dd6e0bd95cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Fonts/Exo2-Medium.otf using Guid(2ad80294c0cc49f4e804dd6e0bd95cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293fdd6a25b23b8df703a669e5f166f1') in 0.041942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.265388 seconds.
+  path: Assets/FarmingEngine/Models/Tools/Bear Trap.fbx
+  artifactKey: Guid(5fd98f459580485f990b2e9709099adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Tools/Bear Trap.fbx using Guid(5fd98f459580485f990b2e9709099adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcb7f7749ec450857cd738c4e508f01') in 0.026768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FarmingEngine/Models/Tools/Cleaver.fbx
+  artifactKey: Guid(4123faa4e75dca04dacc2a7d3e83d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Tools/Cleaver.fbx using Guid(4123faa4e75dca04dacc2a7d3e83d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d4915dabf8c9a8e5ce747b795a5e0c') in 0.075590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FarmingEngine/Models/Tools/Torch.fbx
+  artifactKey: Guid(95ab78364f9e46e1ade285bfd34b4e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Tools/Torch.fbx using Guid(95ab78364f9e46e1ade285bfd34b4e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404e34d059b25c91c96cd3ff8a4a3c28') in 0.073350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/FarmingEngine/Models/Tools/hoe.fbx
+  artifactKey: Guid(b4852de1ad65da84d98cba5ab24eaf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Tools/hoe.fbx using Guid(b4852de1ad65da84d98cba5ab24eaf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea65bb99c7adc6860394b507741ed700') in 0.064700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FarmingEngine/Models/Tools/Fishing_Rod.fbx
+  artifactKey: Guid(bde7a60368e64f2e906ff89b80ca3190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Tools/Fishing_Rod.fbx using Guid(bde7a60368e64f2e906ff89b80ca3190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ae0b3f1e5a07905c0238c6105a9e2e') in 0.037792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FarmingEngine/Models/Tools/Watering Can.fbx
+  artifactKey: Guid(ceecd722895342eeb60a1d774cb3d2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Tools/Watering Can.fbx using Guid(ceecd722895342eeb60a1d774cb3d2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1f9b7e44608c08c7e5f3452e8ec152') in 0.031908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FarmingEngine/Models/Tools/Pickaxe.fbx
+  artifactKey: Guid(d70d60aaaf854da9a56d57fcecff4153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Tools/Pickaxe.fbx using Guid(d70d60aaaf854da9a56d57fcecff4153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cde17edd46dd9c6c9c3ba79efbe3b3c') in 0.036262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.351218 seconds.
+  path: Assets/FarmingEngine/Models/Wearable/bagpack.fbx
+  artifactKey: Guid(c0b656a709724b629c7946b673baf0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Wearable/bagpack.fbx using Guid(c0b656a709724b629c7946b673baf0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4de0701917f50f208f5b666b06e5322') in 0.034442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FarmingEngine/Models/Wearable/Stone_Helmet.fbx
+  artifactKey: Guid(5df080b802a34828a674418e35d8cd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Wearable/Stone_Helmet.fbx using Guid(5df080b802a34828a674418e35d8cd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defad0e8d4b74db4e7534f13deb1d26a') in 0.028459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FarmingEngine/Models/Wearable/winter_boots.fbx
+  artifactKey: Guid(dbe12ca9ca1a4b05a1aabddee8df4249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Wearable/winter_boots.fbx using Guid(dbe12ca9ca1a4b05a1aabddee8df4249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3989e86f15e768c21d3b2cb966e46d33') in 0.042657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FarmingEngine/Models/Wearable/mask_halloween.fbx
+  artifactKey: Guid(d468ca412a6d43d98d58256fc278d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmingEngine/Models/Wearable/mask_halloween.fbx using Guid(d468ca412a6d43d98d58256fc278d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f20383a2ed702d13c11d6e30cc0f22f') in 0.169174 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019749 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\GitHubWarehouse\Farm_Object\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\GitHubWarehouse\Farm_Object\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Farming Engine: 建议为地板层分配一个名称。层级: 9 名称: Floor
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+FarmingEngine.EditorTool.ImportPackage:AfterCompile () (at Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs:33)
+FarmingEngine.EditorTool.ImportPackage:.cctor () (at Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs Line: 33)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.364 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1365ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (998ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.1 KB). Loaded Objects now: 3786.
+Memory consumption went from 137.8 MB to 137.7 MB.
+Total: 2.450600 ms (FindLiveObjects: 0.238900 ms CreateObjectMapping: 0.142800 ms MarkObjects: 1.988100 ms  DeleteObjects: 0.079800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014429 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\GitHubWarehouse\Farm_Object\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\GitHubWarehouse\Farm_Object\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Farming Engine: 建议为地板层分配一个名称。层级: 9 名称: Floor
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+FarmingEngine.EditorTool.ImportPackage:AfterCompile () (at Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs:33)
+FarmingEngine.EditorTool.ImportPackage:.cctor () (at Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/FarmingEngine/Scripts/Editor/ImportPackage.cs Line: 33)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1334ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (988ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3257 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.2 KB). Loaded Objects now: 3789.
+Memory consumption went from 137.8 MB to 137.8 MB.
+Total: 2.980200 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.220300 ms MarkObjects: 2.426100 ms  DeleteObjects: 0.092200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
